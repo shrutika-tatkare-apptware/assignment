@@ -99,7 +99,7 @@ Navigate to the project directory and install dependencies:
 ### Run widget test
 ```flutter test test/widget_test.dart```
 
-### Responsiveness
+## Responsiveness
 The app is designed to be responsive across both mobile and web platforms.
 
 LayoutBuilder: For building UI components that can respond to their own size and constraints.
@@ -107,6 +107,19 @@ MediaQuery: To retrieve information about the current device, such as screen siz
 Flexible and Expanded: Widgets to create flexible and responsive layouts.
 GridView and ListView: Widgets that adapt their layouts based on available screen space.
 
-### screenshots
-![ScreenShot](https://drive.google.com/open?id=1ikiB1qHAtf7gPfuVRloVJ0GmWXh7XTah&usp=drive_copy)
+## screenshots
+### Iphone Simulator (Vertical)
+<img src="https://github.com/user-attachments/assets/7399d858-e4d9-43e3-9779-89e898188235" width="350" height="800">
+<img src="https://github.com/user-attachments/assets/ecefabd0-018e-4c7d-b084-ac6014698286" width="350" height="800">
+<img src="https://github.com/user-attachments/assets/05bacdc9-1633-4e7f-a171-7f72d52d0023" width="350" height="800">
+
+### Iphone Simulator (Horizontal)
+<img src="https://github.com/user-attachments/assets/6e8ddf8a-8a2e-4b9c-8d80-97b1c94a6585" width="800" height="350">
+
+### Web (Chrome)
+<img width="1134" alt="Screenshot 2024-07-13 at 1 36 44 AM" src="https://github.com/user-attachments/assets/65b412fa-cd3e-4e58-8504-d2a4fe033f04">
+<img width="1133" alt="Screenshot 2024-07-13 at 1 36 24 AM" src="https://github.com/user-attachments/assets/ac0f2094-f3ee-4827-b1fd-ea23eabe44fd">
+
+
+
 
