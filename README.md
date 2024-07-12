@@ -1,8 +1,8 @@
-Objective:
+# Objective
 
 Create a Flutter application that connects to an open API service, fetches data, displays it in a user-friendly manner, and allows users to update data back to the service.
 
-Requirements:
+# Requirements
 
         1.      Fetch Data from Open API:
 
@@ -42,61 +42,71 @@ Requirements:
 
         •       Provide clear and concise documentation on how to set up and run the application.
 
-Overview
+# Overview
 This Flutter project is designed to perform above mentioned requirements.
 
-Project Structure
-models/
+# Project Structure
+## models/
 Contains Dart classes representing data models used throughout the application.
 
-providers/
+## providers/
 Includes state management classes using providers for managing application state and data.
 
-constants/
+## constants/
 Holds Dart files defining constants such as API endpoints, app configurations, and other constants.
 
-utils/
+## utils/
 Includes utility functions and helper classes used across the project, such as common toast message etc.
 
-screens/
+## screens/
 Contains the main screens of the application implemented as StatelessWidget or StatefulWidget.
 
-design_system/
+## design_system/
 Defines reusable components, themes, and styles that maintain consistency across the app's UI.
 
-widgets/
+## widgets/
 Includes custom widgets used throughout the application, enhancing code reusability and maintainability.
 
 
-To run this app on your device, follow these steps:
+## To run this app on your device, follow these steps:
 
-Prerequisites
+### Prerequisites
 Flutter SDK installed on your development machine.
 Git installed on your machine.
-Clone the Repository
+
+### Clone the Repository
 Clone this repository to your local machine:
 
-git clone https://gitlab.com/ShrutiKaTatkare/hdfc_assignment.git
-cd hdfc_assignment
+```git clone https://gitlab.com/ShrutiKaTatkare/hdfc_assignment.git```
+```cd hdfc_assignment```
 
-Install Dependencies
+### Install Dependencies
 Navigate to the project directory and install dependencies:
-flutter pub get
+```flutter pub get```
 
-Run the app
-flutter run
+### Run the app
+```flutter run```
 
-Check application health
-flutter doctor
+### Check application health
+```flutter doctor```
 
-Check code cleanliness
-flutter analyze
+### Check code cleanliness
+```flutter analyze```
 
-Run unit test
-flutter test test/unit_test.dart
+### Run unit test
+```flutter test test/unit_test.dart```
 
-Run widget test
-flutter test test/widget_test.dart
+### Run widget test
+```flutter test test/widget_test.dart```
 
+### Responsiveness
+The app is designed to be responsive across both mobile and web platforms.
 
+LayoutBuilder: For building UI components that can respond to their own size and constraints.
+MediaQuery: To retrieve information about the current device, such as screen size and orientation.
+Flexible and Expanded: Widgets to create flexible and responsive layouts.
+GridView and ListView: Widgets that adapt their layouts based on available screen space.
+
+### screenshots
+![ScreenShot](https://drive.google.com/open?id=1ikiB1qHAtf7gPfuVRloVJ0GmWXh7XTah&usp=drive_copy)
 
