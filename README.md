@@ -111,6 +111,26 @@ Widgets to create flexible and responsive layouts.
 ### GridView and ListView: 
 Widgets that adapt their layouts based on available screen space.
 
+## Custom widgets
+
+### Profile Image & Text with icon
+Benefits of using custom widget : 
+Using custom widgets in Flutter mobile apps offers several benefits:
+
+#### Reusability: Custom widgets encapsulate specific functionality or design patterns, making them reusable across different parts of your application. This reduces redundancy and promotes cleaner, more maintainable code.
+
+#### Tailored Functionality: They allow you to implement unique UI components or complex interactions that aren't provided by Flutter's built-in widgets. This customization can align precisely with your app's design requirements.
+
+#### vPerformance Optimization: By creating custom widgets, you can optimize performance by fine-tuning rendering and interaction behaviors to suit your specific use cases. This can lead to smoother animations and faster UI updates.
+
+#### Consistent Design: Custom widgets enable you to enforce a consistent design language throughout your app. You can define and reuse styling, layout patterns, and interactions, ensuring a cohesive user experience.
+
+#### Easier Maintenance: Modularizing your codebase with custom widgets makes it easier to maintain and update. Changes to functionality or appearance can be made in one place, propagating updates across the app where the widget is used.
+
+#### Testing and Debugging: Custom widgets can simplify testing and debugging efforts. They isolate specific features or UI elements, allowing for targeted testing and easier isolation of issues.
+
+
+
 ## screenshots
 ### Iphone Simulator (Vertical)
 <img src="https://github.com/user-attachments/assets/7399d858-e4d9-43e3-9779-89e898188235" width="350" height="800">
