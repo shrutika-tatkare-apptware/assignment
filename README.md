@@ -102,10 +102,14 @@ Navigate to the project directory and install dependencies:
 ## Responsiveness
 The app is designed to be responsive across both mobile and web platforms.
 
-## LayoutBuilder: For building UI components that can respond to their own size and constraints.
-## MediaQuery: To retrieve information about the current device, such as screen size and orientation.
-## Flexible and Expanded: Widgets to create flexible and responsive layouts.
-## GridView and ListView: Widgets that adapt their layouts based on available screen space.
+### LayoutBuilder: 
+For building UI components that can respond to their own size and constraints.
+### MediaQuery: 
+To retrieve information about the current device, such as screen size and orientation.
+### Flexible and Expanded: 
+Widgets to create flexible and responsive layouts.
+### GridView and ListView: 
+Widgets that adapt their layouts based on available screen space.
 
 ## screenshots
 ### Iphone Simulator (Vertical)
